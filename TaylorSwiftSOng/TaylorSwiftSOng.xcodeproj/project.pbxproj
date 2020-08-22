@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA6BCC4A24F0FED7007448A0 /* Haters.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4824F0FD32007448A0 /* Haters.swift */; };
 		EAF9219224DAA01B00ADE30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219124DAA01B00ADE30E /* AppDelegate.swift */; };
 		EAF9219424DAA01B00ADE30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */; };
 		EAF9219624DAA01B00ADE30E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219524DAA01B00ADE30E /* ContentView.swift */; };
@@ -15,8 +16,6 @@
 		EAF9219E24DAA01D00ADE30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAF9219C24DAA01D00ADE30E /* LaunchScreen.storyboard */; };
 		EAF921A924DAA01D00ADE30E /* TaylorSwiftSOngTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF921A824DAA01D00ADE30E /* TaylorSwiftSOngTests.swift */; };
 		EAF921B424DAA01D00ADE30E /* TaylorSwiftSOngUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF921B324DAA01D00ADE30E /* TaylorSwiftSOngUITests.swift */; };
-		EAF921C224DAA03100ADE30E /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF921C124DAA03100ADE30E /* Hater.swift */; };
-		EAF921C324DAA0C600ADE30E /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF921C124DAA03100ADE30E /* Hater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA6BCC4824F0FD32007448A0 /* Haters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haters.swift; sourceTree = "<group>"; };
 		EAF9218E24DAA01B00ADE30E /* TaylorSwiftSOng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorSwiftSOng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF9219124DAA01B00ADE30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,7 +51,6 @@
 		EAF921AF24DAA01D00ADE30E /* TaylorSwiftSOngUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaylorSwiftSOngUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF921B324DAA01D00ADE30E /* TaylorSwiftSOngUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaylorSwiftSOngUITests.swift; sourceTree = "<group>"; };
 		EAF921B524DAA01D00ADE30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAF921C124DAA03100ADE30E /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +81,6 @@
 		EAF9218524DAA01B00ADE30E = {
 			isa = PBXGroup;
 			children = (
-				EAF921C124DAA03100ADE30E /* Hater.swift */,
 				EAF9219024DAA01B00ADE30E /* TaylorSwiftSOng */,
 				EAF921A724DAA01D00ADE30E /* TaylorSwiftSOngTests */,
 				EAF921B224DAA01D00ADE30E /* TaylorSwiftSOngUITests */,
@@ -103,6 +101,7 @@
 		EAF9219024DAA01B00ADE30E /* TaylorSwiftSOng */ = {
 			isa = PBXGroup;
 			children = (
+				EA6BCC4824F0FD32007448A0 /* Haters.swift */,
 				EAF9219124DAA01B00ADE30E /* AppDelegate.swift */,
 				EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */,
 				EAF9219524DAA01B00ADE30E /* ContentView.swift */,
@@ -273,8 +272,8 @@
 			files = (
 				EAF9219224DAA01B00ADE30E /* AppDelegate.swift in Sources */,
 				EAF9219424DAA01B00ADE30E /* SceneDelegate.swift in Sources */,
-				EAF921C224DAA03100ADE30E /* Hater.swift in Sources */,
 				EAF9219624DAA01B00ADE30E /* ContentView.swift in Sources */,
+				EA6BCC4A24F0FED7007448A0 /* Haters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAF921C324DAA0C600ADE30E /* Hater.swift in Sources */,
 				EAF921A924DAA01D00ADE30E /* TaylorSwiftSOngTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
