@@ -18,9 +18,3 @@ struct Hater {
         hating = false
     }
 }
-
-struct Converter {
-    func convertToCelsius(fahrenheit: Double) -> Double {
-        return (fahrenheit - 32) * 5 / 9
-    }
-}
