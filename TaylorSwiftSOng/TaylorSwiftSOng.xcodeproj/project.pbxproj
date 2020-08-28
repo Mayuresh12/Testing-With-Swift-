@@ -11,6 +11,7 @@
 		EA6BCC4C24F615CF007448A0 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4B24F615CF007448A0 /* Converter.swift */; };
 		EA6BCC4E24F61644007448A0 /* Converter-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4D24F61644007448A0 /* Converter-Tests.swift */; };
 		EA6BCC5024F76F9A007448A0 /* LifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4F24F76F9A007448A0 /* LifecycleTests.swift */; };
+		EA6BCC5224F8C7EA007448A0 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC5124F8C7EA007448A0 /* ThrowingTests.swift */; };
 		EAF9219224DAA01B00ADE30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219124DAA01B00ADE30E /* AppDelegate.swift */; };
 		EAF9219424DAA01B00ADE30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */; };
 		EAF9219624DAA01B00ADE30E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219524DAA01B00ADE30E /* ContentView.swift */; };
@@ -43,6 +44,7 @@
 		EA6BCC4B24F615CF007448A0 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		EA6BCC4D24F61644007448A0 /* Converter-Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Converter-Tests.swift"; sourceTree = "<group>"; };
 		EA6BCC4F24F76F9A007448A0 /* LifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleTests.swift; sourceTree = "<group>"; };
+		EA6BCC5124F8C7EA007448A0 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
 		EAF9218E24DAA01B00ADE30E /* TaylorSwiftSOng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorSwiftSOng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF9219124DAA01B00ADE30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				EA6BCC4F24F76F9A007448A0 /* LifecycleTests.swift */,
+				EA6BCC5124F8C7EA007448A0 /* ThrowingTests.swift */,
 				EAF921A824DAA01D00ADE30E /* TaylorSwiftSOngTests.swift */,
 				EA6BCC4D24F61644007448A0 /* Converter-Tests.swift */,
 				EAF921AA24DAA01D00ADE30E /* Info.plist */,
@@ -294,6 +297,7 @@
 				EA6BCC4E24F61644007448A0 /* Converter-Tests.swift in Sources */,
 				EA6BCC5024F76F9A007448A0 /* LifecycleTests.swift in Sources */,
 				EAF921A924DAA01D00ADE30E /* TaylorSwiftSOngTests.swift in Sources */,
+				EA6BCC5224F8C7EA007448A0 /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
