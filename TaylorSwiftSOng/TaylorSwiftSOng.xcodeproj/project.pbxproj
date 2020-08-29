@@ -12,6 +12,7 @@
 		EA6BCC4E24F61644007448A0 /* Converter-Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4D24F61644007448A0 /* Converter-Tests.swift */; };
 		EA6BCC5024F76F9A007448A0 /* LifecycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC4F24F76F9A007448A0 /* LifecycleTests.swift */; };
 		EA6BCC5224F8C7EA007448A0 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC5124F8C7EA007448A0 /* ThrowingTests.swift */; };
+		EA6BCC5A24FADDF3007448A0 /* AsynchronousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6BCC5924FADDF3007448A0 /* AsynchronousTests.swift */; };
 		EAF9219224DAA01B00ADE30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219124DAA01B00ADE30E /* AppDelegate.swift */; };
 		EAF9219424DAA01B00ADE30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */; };
 		EAF9219624DAA01B00ADE30E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF9219524DAA01B00ADE30E /* ContentView.swift */; };
@@ -23,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		EA6BCC5C24FADDF3007448A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAF9218624DAA01B00ADE30E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAF9218D24DAA01B00ADE30E;
+			remoteInfo = TaylorSwiftSOng;
+		};
 		EAF921A524DAA01D00ADE30E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = EAF9218624DAA01B00ADE30E /* Project object */;
@@ -45,6 +53,9 @@
 		EA6BCC4D24F61644007448A0 /* Converter-Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Converter-Tests.swift"; sourceTree = "<group>"; };
 		EA6BCC4F24F76F9A007448A0 /* LifecycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleTests.swift; sourceTree = "<group>"; };
 		EA6BCC5124F8C7EA007448A0 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		EA6BCC5724FADDF3007448A0 /* AsynchronousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynchronousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6BCC5924FADDF3007448A0 /* AsynchronousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTests.swift; sourceTree = "<group>"; };
+		EA6BCC5B24FADDF3007448A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAF9218E24DAA01B00ADE30E /* TaylorSwiftSOng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaylorSwiftSOng.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF9219124DAA01B00ADE30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EAF9219324DAA01B00ADE30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		EA6BCC5424FADDF3007448A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAF9218B24DAA01B00ADE30E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -86,12 +104,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA6BCC5824FADDF3007448A0 /* AsynchronousTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA6BCC5924FADDF3007448A0 /* AsynchronousTests.swift */,
+				EA6BCC5B24FADDF3007448A0 /* Info.plist */,
+			);
+			path = AsynchronousTests;
+			sourceTree = "<group>";
+		};
 		EAF9218524DAA01B00ADE30E = {
 			isa = PBXGroup;
 			children = (
 				EAF9219024DAA01B00ADE30E /* TaylorSwiftSOng */,
 				EAF921A724DAA01D00ADE30E /* TaylorSwiftSOngTests */,
 				EAF921B224DAA01D00ADE30E /* TaylorSwiftSOngUITests */,
+				EA6BCC5824FADDF3007448A0 /* AsynchronousTests */,
 				EAF9218F24DAA01B00ADE30E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,6 +130,7 @@
 				EAF9218E24DAA01B00ADE30E /* TaylorSwiftSOng.app */,
 				EAF921A424DAA01D00ADE30E /* TaylorSwiftSOngTests.xctest */,
 				EAF921AF24DAA01D00ADE30E /* TaylorSwiftSOngUITests.xctest */,
+				EA6BCC5724FADDF3007448A0 /* AsynchronousTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +183,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		EA6BCC5624FADDF3007448A0 /* AsynchronousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA6BCC5E24FADDF3007448A0 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */;
+			buildPhases = (
+				EA6BCC5324FADDF3007448A0 /* Sources */,
+				EA6BCC5424FADDF3007448A0 /* Frameworks */,
+				EA6BCC5524FADDF3007448A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA6BCC5D24FADDF3007448A0 /* PBXTargetDependency */,
+			);
+			name = AsynchronousTests;
+			productName = AsynchronousTests;
+			productReference = EA6BCC5724FADDF3007448A0 /* AsynchronousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		EAF9218D24DAA01B00ADE30E /* TaylorSwiftSOng */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAF921B824DAA01D00ADE30E /* Build configuration list for PBXNativeTarget "TaylorSwiftSOng" */;
@@ -217,6 +264,10 @@
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Mayuresh Rao";
 				TargetAttributes = {
+					EA6BCC5624FADDF3007448A0 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = EAF9218D24DAA01B00ADE30E;
+					};
 					EAF9218D24DAA01B00ADE30E = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
@@ -246,11 +297,19 @@
 				EAF9218D24DAA01B00ADE30E /* TaylorSwiftSOng */,
 				EAF921A324DAA01D00ADE30E /* TaylorSwiftSOngTests */,
 				EAF921AE24DAA01D00ADE30E /* TaylorSwiftSOngUITests */,
+				EA6BCC5624FADDF3007448A0 /* AsynchronousTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		EA6BCC5524FADDF3007448A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAF9218C24DAA01B00ADE30E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +337,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		EA6BCC5324FADDF3007448A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA6BCC5A24FADDF3007448A0 /* AsynchronousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		EAF9218A24DAA01B00ADE30E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -312,6 +379,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		EA6BCC5D24FADDF3007448A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAF9218D24DAA01B00ADE30E /* TaylorSwiftSOng */;
+			targetProxy = EA6BCC5C24FADDF3007448A0 /* PBXContainerItemProxy */;
+		};
 		EAF921A624DAA01D00ADE30E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = EAF9218D24DAA01B00ADE30E /* TaylorSwiftSOng */;
@@ -336,6 +408,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		EA6BCC5F24FADDF3007448A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EEQXBZ866;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaylorSwiftSOng.app/TaylorSwiftSOng";
+			};
+			name = Debug;
+		};
+		EA6BCC6024FADDF3007448A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5EEQXBZ866;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mayu.ue.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaylorSwiftSOng.app/TaylorSwiftSOng";
+			};
+			name = Release;
+		};
 		EAF921B624DAA01D00ADE30E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +689,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		EA6BCC5E24FADDF3007448A0 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6BCC5F24FADDF3007448A0 /* Debug */,
+				EA6BCC6024FADDF3007448A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		EAF9218924DAA01B00ADE30E /* Build configuration list for PBXProject "TaylorSwiftSOng" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
